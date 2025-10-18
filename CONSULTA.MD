@@ -32,7 +32,7 @@ navbar: clase para barra de navegación responsiva
 modal: define diálogo emergente con estilos y comportamiento: fonde atenuado, centrado, cerrar, entre otros.
 mt: se usa para aplicar margen en la parte de arriba.
 text-center: se usa para centrar horizontalmente el texto  dentro de un elemento
-align*-items: centra elementos hijos dentro de un contenedor.
+align-items: centra elementos hijos dentro de un contenedor.
 
 ventajas: me parece que el tema del tiempo es fundamental, también tiene diseños muy buenos y que se adaptan a todo, son responsivos 
 desventajas: que cuando se trata de crear algo mas personalizado estos componente no creo q se ajusten a lo q quieres, son mas bien estandar.
@@ -46,6 +46,21 @@ desventajas: que cuando se trata de crear algo mas personalizado estos component
 * **3.3.** Basado en tu investigación, menciona dos **ventajas** y dos **desventajas** claras de usar Tailwind CSS en un proyecto.
 
 **[ESPACIO PARA TU RESPUESTA 3]**
+la filosofía de tailwind css se basa en clases utilitarias pequeñas, atómicas, que aplican estilos muy específicos (márgenes, colores, tipografía, tamaño, flexbox, etc.). Se combinan en el HTML para construir el diseño. es muy flexible por las clases atómicas tienes control sobre cada parte del estilo 
+
+10 clases de utilidad de tailwind:
+text-lg aplica tamano de fuente grande 
+font-bold: le da peso a la letra la pone mas gorda y negrita
+px-6: le da espaciado en el eje x de los elementos
+bg-blue-500: el da color de fuente a la letra un azul medio
+flex: es como el display flex
+justify-between: alineacion horizontal entre elementos en el espacio permitido
+border-blue-900: color en el borde del componente
+py-6: crea padding en el eje y del elemento
+text-sm: pone la letra muy pequeña, funciona como un breakpoint
+uppercase: trasforma la letra toda en mayuscula
+ventajas: flexibilidad, control mas centrado en componentes y al instante.
+desventajas: se puede ver muy saturado de clases en cada componente, curva de aprendizaje, cuesta al principio entender la filosfía.
 
 ---
 
