@@ -8,7 +8,9 @@
 * **1.2.** ¿Qué problemas principales vienen a solucionar los frameworks de CSS en el desarrollo web? Menciona y explica al menos dos ventajas clave de utilizarlos.
 
 **[ESPACIO PARA TU RESPUESTA 1]**
+los framework de css son como un caja de erramientas que facilita y agiliza nuestro trabajo en el desarrollo web, ahorrando grandes cantidades de tiempo. para mi in framework en el mundo real mas espesificamente en la construcción seria una retro escabadora la cual agiliza la creación de brechas y huecos que de otra forma al hacerlo de forma manual con un pala seria tedioso y llevaria mucho tiempo.
 
+los problemas que viene a resolver seria mas que todo de tiempo, productividad y diseños mas simetricos
 ---
 
 ### Pregunta 2: Bootstrap CSS - El Ecosistema Basado en Componentes
