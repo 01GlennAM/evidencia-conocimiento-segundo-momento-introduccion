@@ -20,6 +20,22 @@ los problemas que viene a resolver seria mas que todo de tiempo, productividad y
 * **2.3.** Basado en tu investigación, menciona dos **ventajas** y dos **desventajas** claras de usar Bootstrap en un proyecto.
 
 **[ESPACIO PARA TU RESPUESTA 2]**
+Bootstrap propone que la UI se arme como si ensamblas piezas prefabricadas (componentes), aprovechando utilidades y layout flexible, en lugar de partir de estilos personalizados para cada elemento.
+
+algunas clases fundamentales de bootstrap
+container: crea un contenedor centralizado con anchos máximos adaptables según el tamano de la pantalla
+row: crea filas en forma de rejilla, se usa para columnas
+col: define columnas dentro de un row ejemplo: .col-md-6 ocupa 6 de 12 columnas en tamaño mediano.
+btn: clase para botones aplicando padin, borde y tipografia.
+card: crea un componente de tipo tarjeta con estructura defina como sombras, padding.
+navbar: clase para barra de navegación responsiva
+modal: define diálogo emergente con estilos y comportamiento: fonde atenuado, centrado, cerrar, entre otros.
+mt: se usa para aplicar margen en la parte de arriba.
+text-center: se usa para centrar horizontalmente el texto  dentro de un elemento
+align*-items: centra elementos hijos dentro de un contenedor.
+
+ventajas: me parece que el tema del tiempo es fundamental, también tiene diseños muy buenos y que se adaptan a todo, son responsivos 
+desventajas: que cuando se trata de crear algo mas personalizado estos componente no creo q se ajusten a lo q quieres, son mas bien estandar.
 
 ---
 
