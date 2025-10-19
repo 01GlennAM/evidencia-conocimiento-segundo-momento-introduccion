@@ -89,10 +89,7 @@ para evitar colisiones en la practica cada clase es única y especifica a su blo
   <h2 class="product-card__title">Vela Aromática de Lavanda</h2>
 
   <button class="product-card__button">Agregar al carrito</button>
-  <button class="product-card__button product-card__button--primary">Comprar ahora</button>
-</div>
-
-
+  <button class="product-card__button product-card__button--primary">Comprar ahora</button> </div>
 
 ---
 
@@ -103,6 +100,22 @@ para evitar colisiones en la practica cada clase es única y especifica a su blo
 * **5.3.** ¿Es técnicamente posible y/o recomendable usar Bootstrap, Tailwind CSS y una hoja de estilos propia en un mismo proyecto? Argumenta sobre los posibles conflictos (ej. reseteo de estilos, colisión de nombres de clases) y problemas de rendimiento que esto podría causar.
 
 **[ESPACIO PARA TU RESPUESTA 5]**
+si se puede combinar CSS puro con un framework esto se hace cuando necesitas ajustar detalles visuales que el framework no cubre también cuando quieres sobrescribir estilos predeterminados o cuando se agrega tu propio diseño personalizado.
+el orden correcto dice que los estilos que se cargan al final tienen mayor prioridad ejemplo:
+
+<head>
+  <!-- Estilos del framework -->
+  <link rel="stylesheet" href="bootstrap.min.css">
+
+  <!-- Tu hoja de estilos personalizada -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+La especificidad es una regla del navegador que determina qué estilo tiene prioridad cuando dos o más selectores afectan al mismo elemento. Si dos reglas CSS intentan cambiar la misma propiedad (por ejemplo, el color o el tamaño de un texto), el navegador elige la que tiene mayor especificidad.
+
+si es tecnicamente posible usar bootstrap, tailwind y css propio juntos el navegador aplicara los estilos según las reglas de cascada y especificidad, pero no es recomendable a no ser q tengas una razón muy clara para hacerlo por que pueden existir conflictos entre frameworks.
+los frameworks incluyen un reinicio de estilos base y cuando se cargan varios cada uno puede sobreescribir los estilos del otro y esto generara comportamientos impredecibles.
+también pueden haber problemas de rendiemiento ya que ambos framwwork son pesados.
 
 ---
 
