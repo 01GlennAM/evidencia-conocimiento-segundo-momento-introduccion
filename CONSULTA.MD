@@ -71,6 +71,28 @@ desventajas: se puede ver muy saturado de clases en cada componente, curva de ap
 * **4.3.** Muestra un ejemplo de código HTML y CSS para un componente de "tarjeta de producto" (`product-card`) utilizando la sintaxis BEM. El bloque debe tener elementos como un título, una imagen y un botón, y el botón debe tener un modificador para un estado primario (ej. `product-card__button--primary`).
 
 **[ESPACIO PARA TU RESPUESTA 4]**
+la metodologia Bem se centra en dividir en partes el elemento para que sea mas entendible y fácil de mantener.
+la unidad block crea el componente completo ejemplo un class="card".
+el elemento es una parte interna del block, sirve para describir partes internas del componente.
+y el modificardor sirve para crear variantes o estados de un elemento.
+
+el problema que viene a solucionar la metodologia BEM: este nació para resolver problemas de escalabilidad y mantenimiento en proyectos grandes con CSS puro como la colisión de estilos, dificultades para mantener el código
+para evitar colisiones en la practica cada clase es única y especifica a su bloque, por lo que es casi imposible sobrescribirla por accidente ejemplo .card__title { font-size: 1.5rem; }, .menu__title { font-size: 1rem; } aunque tengan title los dos no hay riesgo.
+
+<div class="product-card">
+  <img
+    class="product-card__image"
+    src="https://via.placeholder.com/200"
+    alt="Producto"
+  />
+
+  <h2 class="product-card__title">Vela Aromática de Lavanda</h2>
+
+  <button class="product-card__button">Agregar al carrito</button>
+  <button class="product-card__button product-card__button--primary">Comprar ahora</button>
+</div>
+
+
 
 ---
 
