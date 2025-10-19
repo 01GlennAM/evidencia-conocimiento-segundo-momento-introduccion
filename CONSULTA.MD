@@ -125,3 +125,11 @@ también pueden haber problemas de rendiemiento ya que ambos framwwork son pesad
 * **6.2.** ¿En qué tipo de proyecto recomendarías usar **Bootstrap**? ¿En cuál **Tailwind CSS**? ¿Y en cuál optarías por **CSS Puro + BEM**? Justifica tu respuesta basándote en las fortalezas y debilidades de cada enfoque.
 
 **[ESPACIO PARA TU RESPUESTA 6]**
+
+Boostrap es ideal si quieres velocidad y facilidad porque trae componentes listos para usar,  curva de aprendizaje fácil pero es limitado a cuanto personalización, velocidad muy rapida
+Tailwind css es bueno si quieres control total del diseño y coherencia visual sin escribir css tradcional curva de aprendizaje media pero no es muy limpo satura mucho a veces, velocidad rapida
+BEN css puro maximo control y código muy limpio pero requiere mas tiempo, curva de apendisaje alta requiere entender muy bien el css. velocidad lenta
+
+creo que para usar boostrap seria en proyectos simples por su velocidad y fácil uso
+talwind creo que en proyectos grandes, también es rapidio y no es tan dificil usar, tendras control al momento de personalizar mejor tus clases 
+BEM creo q estaria bien para proyectos pequeños al mismo tiempo que vas aprendiendo css ya q es lento 
